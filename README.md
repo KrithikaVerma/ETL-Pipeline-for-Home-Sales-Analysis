@@ -1,11 +1,9 @@
-# <p align="center">Does Weather in Indiana Impact If & When a Home Is Sold? </p>
+# <p align="center">Does Weather Impact If & When a Home Is Sold? </p>
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/ETL_image.png?raw=true)">
 </p>
 
-
-## <p align="center">Participants: Allyson Taylor, Benedicta Justin, James Martin & Michael Davis</p>
 
 ## Aims:
 
@@ -71,8 +69,6 @@ The five-year ACS was selected since it has the most complete housing data. From
   - County 
 	
 The state and county fields will be useful in joining the Census table to the other tables Once the data was called utilizing the Census API, the data was put into a pandas dataframe.
-
-![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ACS_Screen_Shot.png)
 
 
 •   Transforming the U.S. Census housing related data
@@ -168,10 +164,6 @@ for URL in url_list:
     df_3["City"] = url_split[2].upper()
     average_monthly = average_monthly.append(df_3)
     
- 
- <p align="center">
-  <img width="779" height="717" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png">
-</p>
 
 
 ### Transform
@@ -244,7 +236,7 @@ for URL in url_list:
 
 
 ## Potential Future Questions to Research:
-1. Does Indiana monthly temperature impact monthly growth?
+1. Does  monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
-3. What counties in Indiana experience the most growth per year? 
+3. What counties experience the most growth per year? 
 4. Which season of the year provides a decline in yearly population growth? 
